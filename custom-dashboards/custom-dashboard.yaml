@@ -8,9 +8,8 @@ items:
       markdown:
         content: "Programmatic Bids Overview"
         css:
-          font-size: 2rem
-          text-align: left
-          width: 100%
+          font-size: 1.5rem
+          background-color: rgba(0,0,0,0)
     width: 23
     height: 2
     x: 1
@@ -20,8 +19,7 @@ items:
         content: "Domain Auction Score Card"
         css:
           font-size: 1.5rem
-          text-align: left
-          width: 100%
+          background-color: rgba(0,0,0,0)
     width: 11
     height: 1
     x: 13
@@ -31,19 +29,27 @@ items:
         content: "Domain Attribution Score Card"
         css:
           font-size: 1.5rem
-          text-align: left
-          width: 100%
+          background-color: rgba(0,0,0,0)
     width: 11
     height: 1
     x: 1
     y: 11
   - component:
       markdown:
+        content: "1 Day QPS by Placement Type"
+        css:
+          font-size: 1.5rem
+          background-color: rgba(0,0,0,0)
+    width: 11
+    height: 1
+    x: 13
+    y: 5
+  - component:
+      markdown:
         content: "Advertiser Spend - Last 7 Days"
         css:
           font-size: 1.5rem
-          text-align: left
-          width: 100%
+          background-color: rgba(0,0,0,0)
     width: 11
     height: 1
     x: 1
@@ -52,9 +58,8 @@ items:
       markdown:
         content: ""
         css:
-          font-size: 2rem
-          text-align: left
-          width: 100%
+          font-size: 1.5rem
+          background-color: rgba(0,0,0,0)
     width: 23
     height: 2
     x: 1
@@ -109,3 +114,13 @@ items:
     width: 11
     x: 13
     y: 6
+  - component: table
+    height: 8
+    width: 11
+    x: 1
+    y: 12
+  - component: table2
+    height: 8
+    width: 11
+    x: 13
+    y: 12
