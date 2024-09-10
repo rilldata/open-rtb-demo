@@ -2,7 +2,6 @@
 # Reference documentation: https://docs.rilldata.com/reference/project-files/charts
 
 type: component
-title: Advertiser Spend - Last 7 Days
 
 data:
   metrics_sql: |

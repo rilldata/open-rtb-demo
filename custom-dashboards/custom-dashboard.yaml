@@ -23,9 +23,9 @@ items:
           text-align: left
           width: 100%
     width: 11
-    height: 2
+    height: 1
     x: 13
-    y: 10
+    y: 11
   - component:
       markdown:
         content: "Domain Attribution Score Card"
@@ -34,9 +34,20 @@ items:
           text-align: left
           width: 100%
     width: 11
-    height: 2
+    height: 1
     x: 1
-    y: 10
+    y: 11
+  - component:
+      markdown:
+        content: "Advertiser Spend - Last 7 Days"
+        css:
+          font-size: 1.5rem
+          text-align: left
+          width: 100%
+    width: 11
+    height: 1
+    x: 1
+    y: 5
   - component:
       markdown:
         content: ""
@@ -92,19 +103,14 @@ items:
     height: 4
     width: 11
     x: 1
-    y: 5
+    y: 6
   - component: table
     height: 8
-    width: 12
-    x: 1
-    y: 12
-  - component: table2
-    height: 8
     width: 11
-    x: 13
+    x: 1
     y: 12
   - component: chart_1
     height: 4
     width: 11
     x: 13
-    y: 5
+    y: 6
