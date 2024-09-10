@@ -1,0 +1,21 @@
+# Chart YAML
+# Reference documentation: https://docs.rilldata.com/reference/project-files/charts
+
+type: component
+title: 1D QPS by Placement Type
+
+data:
+  metrics_sql: |
+    select 1d_qps, placement_type from auction having 1d_qps > 1
+
+vega_lite: |
+  
+  {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": { "name": "table" },
+    "mark": "bar",
+    "encoding": {
+      "x": { "field": "1d_qps", "type": "quantitative" },
+      "y": { "field": "placement_type", "type": "nominal" }
+    }
+  }

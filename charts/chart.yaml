@@ -1,0 +1,6 @@
+type: component
+
+kpi:
+  metric_view: bids
+  measure: overall_spend
+  time_range: P7D

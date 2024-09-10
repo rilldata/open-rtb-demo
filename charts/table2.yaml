@@ -1,0 +1,15 @@
+# Chart YAML
+# Reference documentation: https://docs.rilldata.com/reference/project-files/charts
+    
+type: component
+
+table: 
+  metric_view: auction
+  measures: 
+    - requests
+    - avg_bid_floor
+    - 1d_qps
+  row_dimensions: 
+    - app_site_domain
+  time_range: P7D
+  comparison_range: P7D

@@ -1,0 +1,15 @@
+# Chart YAML
+# Reference documentation: https://docs.rilldata.com/reference/project-files/charts
+    
+type: component
+
+table: 
+  metric_view: bids
+  measures: 
+    - impressions
+    - total_bids
+    - clicks
+  row_dimensions: 
+    - adomain
+  time_range: P7D
+  comparison_range: P7D

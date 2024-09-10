@@ -1,0 +1,36 @@
+# Chart YAML
+# Reference documentation: https://docs.rilldata.com/reference/project-files/charts
+
+type: component
+title: Advertiser Spend - Last 7 Days
+
+data:
+  metrics_sql: |
+    select overall_spend, __time from bids
+vega_lite: |
+  
+  {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": { "name": "table" },
+    "mark": {
+      "type": "bar"
+    },
+    "encoding": {
+      "x": {
+        "field": "__time",
+        "type": "temporal",
+        "axis": {
+          "grid": false,
+          "title": ""
+        }
+      },
+      "y": {
+        "field": "overall_spend",
+        "type": "quantitative",
+        "axis": {
+          "grid": false,
+          "title": "Overall Spend"
+        }
+      }
+    }
+  }
